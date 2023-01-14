@@ -6,8 +6,26 @@ body{
     box-sizing: border-box;
 }
 
-
 h1{
     font-family:"Broadway Regular";
 }
 
+.navnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 14px 16px;
+    display: flex;
+    font-weight: bold;
+}
+
+ul{
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li a {
+    color: #EFBBD3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
