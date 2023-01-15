@@ -120,7 +120,7 @@ li a {
     letter-spacing: 3px;
 }
 
-.container{
+.container1{
 border-color: #EFBBD3;
 background-color: #ffffff;
 border-style: solid;
@@ -148,7 +148,6 @@ td, th {
 
 
 button{
-    
     border: none;
     color: #ffffff;
     background-color: #EFBBD3;
@@ -166,3 +165,56 @@ button{
     color: #EFBBD3;
     background-color: #FFF7F8;
   }
+
+  #Newsletter{
+    background-color: #393B41  ;
+    color: #FFF7F8
+}
+
+#Newsletter h1{
+    letter-spacing: 3px;
+}
+
+.newslettertext p{
+    margin-top: 40px;
+    text-align: center;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.emailfield{
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form .button{
+    border: none;
+    color: #ffffff;
+    background-color: #EFBBD3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+form .button:hover{
+    color: #EFBBD3;
+    background-color: #FFF7F8;
+}
+
+.container2{
+    background-color: #000000;
+    color: #FFF7F8;
+    text-align: right;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
