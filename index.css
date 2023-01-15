@@ -33,6 +33,11 @@ CLASSES
     width: 100%;
 }
 
+.navbar{
+    overflow: hidden;
+    background-color: #000000;
+}
+
 /*///////////////
 TAGS 
  ///////////*/
@@ -53,13 +58,14 @@ header{
     display: flex;
     font-weight: bold;
     font-size: larger;
-    background-color: #000000;
 }
 
 li a {
     color: #EFBBD3;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #Music{
@@ -104,3 +110,59 @@ li a {
     margin-left: auto;
     margin-right: auto;
 }
+
+#Events{
+    background-color: #FFF7F8;
+    color: #000000;
+}
+
+#Events h1{
+    letter-spacing: 3px;
+}
+
+.container{
+border-color: #EFBBD3;
+background-color: #ffffff;
+border-style: solid;
+border-width: 2px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+margin-top: 60px;
+padding: 10px;
+width: 480px;
+height: 600px;
+}
+
+table{
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+
+td, th {
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+button{
+    
+    border: none;
+    color: #ffffff;
+    background-color: #EFBBD3;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  button:hover {
+    color: #EFBBD3;
+    background-color: #FFF7F8;
+  }
