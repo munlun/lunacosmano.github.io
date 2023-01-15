@@ -4,9 +4,19 @@
     padding: 0;
 }
 
+/*///////////////
+CLASSES 
+ ///////////*/
+
+.main{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .header{
     background-color: #000000;
     color: #EFBBD3;
+
 }
 
 .banner{
@@ -14,7 +24,23 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+.banner .lukaimg1{
+    margin: auto;
+    margin-right: 50px;
+    width: 1080px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    width: 100%;
+}
+
+/*///////////////
+TAGS 
+ ///////////*/
 
 body{ 
     background-color: #fff7f8;
@@ -43,3 +69,4 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
