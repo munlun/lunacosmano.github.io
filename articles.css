@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header{
+    background-color: #000000;
+    color: #EFBBD3;
+
+}
+
+.banner{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.banner .lukaimg1{
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #000000;
+}
+
+
+body{ 
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-family:"Broadway Regular";
+}
+
+.navnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 14px 16px;
+    display: flex;
+    font-weight: bold;
+    font-size: larger;
+}
+
+li a {
+    color: #EFBBD3;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#Articles{
+    background-color: #FFF7F8;
+    color: #000000;
+}
+
+.title{
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.small-box{
+    border-color: #EFBBD3;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
