@@ -210,6 +210,55 @@ form .button:hover{
     background-color: #FFF7F8;
 }
 
+
+#Articles{
+    background-color: #FFF7F8;
+    color: #000000;
+}
+
+#Articles h1{
+    letter-spacing: 3px;
+}
+
+#About{
+    background-color: #FFF7F8;
+    color: #000000;
+}
+
+#About h1{
+    letter-spacing: 3px;
+}
+
+.abt{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 190px;
+}
+
+.abt img{
+    resize: both;
+     width:400px; 
+    height: auto;
+    border: #EFBBD3;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.abttext{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}
+
 .container2{
     background-color: #000000;
     color: #FFF7F8;
