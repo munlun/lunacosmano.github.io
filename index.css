@@ -324,10 +324,12 @@ form .button:hover{
     }
 
 .container7 img{
-    margin-bottom: 20px; }
+    margin-bottom: 40px; }
 
 .container7{
     text-align: justify;
+    margin-bottom: 80px;
+    font-size: 20px;
 }
 .container2{
         background-color: #000000;
