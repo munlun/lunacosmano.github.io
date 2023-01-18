@@ -34,8 +34,14 @@ CLASSES
 }
 
 .navbar{
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
     background-color: #000000;
+    padding: 0 1em;
+}
+
+.search-item{
+margin-top: 7px;
 }
 
 /*///////////////
@@ -261,18 +267,15 @@ form .button:hover{
     font-size: 20px;
 }
 
-.container2{
-    background-color: #000000;
-    color: #FFF7F8;
-    text-align: right;
-    font-size: small;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 
 .container3{
     margin-top: 80px;
+}
 
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .drop {
@@ -286,7 +289,6 @@ form .button:hover{
   }
 
   .dropdown {
-    float: right;
     margin-right: 80px;
 }
 .dropdown-content {
@@ -308,3 +310,45 @@ form .button:hover{
 
 .dropdown:hover .dropdown-content {
     display: block;}
+
+    .container4{
+        margin-top: 80px;
+        border-color: #EFBBD3;
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: 2px;
+        margin-left: 80px;
+        margin-right: auto;
+        margin-bottom: 5px;
+        padding: 10px;
+        width: 600px;
+        height: 550px;
+        float: left;
+    }
+
+    .container5 p{
+        text-align: justify;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .readmore{
+        cursor: pointer;
+        margin-top: 10px;
+        float: right;
+    }
+
+    .container5 h5{
+        float: left;
+        margin-bottom: 10px;
+        margin-top: 45px;
+    }
+
+    .container2{
+        background-color: #000000;
+        color: #FFF7F8;
+        text-align: right;
+        font-size: small;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
