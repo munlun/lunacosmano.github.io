@@ -338,3 +338,52 @@ form .button:hover{
         font-size: small;
         margin-top: 10px;
         margin-bottom: 10px; }
+
+        #contact{
+            background-color: #FFF7F8;
+            color: #000000; }
+        
+        #contact h1{
+            letter-spacing: 3px; }
+
+.container8{
+border-color: #EFBBD3;
+background-color: #ffffff;
+border-style: solid;
+border-width: 2px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+margin-top: 60px;
+padding: 10px;
+width: 700px;
+height: 300px; }
+
+.container9{
+    margin-top: 20px;
+    padding: 20px;
+ }
+
+ #FirstName{
+    margin-left: 40px;
+    margin-right: 40px;}
+    
+    #LastName{
+        margin-left: 100px;
+    margin-right: 40px; }
+
+ #Number{
+margin-top: 20px; 
+margin-left: 40px;
+    margin-right: 40px;}
+
+#Email{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 40px; }
+
+    #mailto{
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+}
