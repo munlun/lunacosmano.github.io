@@ -6,384 +6,417 @@
 
 /*///////////////
 mains 
- ///////////*/
+///////////*/
 
 .main{ 
     padding-left: 200px;
     padding-right: 200px; }
-
-.header{
-    background-color: #000000;
-    color: #EFBBD3; }
-
-.banner{
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto; }
-
-.banner .lukaimg1{
-    margin: auto;
-    position: relative;
-    width: 100%; }
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-    padding: 0 1em; }
-
-.search-item{
-    margin-top: 7px; }
-
-/*///////////////
-mixed 
- ///////////*/
-
-body{ 
-    background-color: #000000;
-    font-family: Arial, Helvetica, sans-serif; }
-
-header{
-    font-family:"Broadway Regular"; }
-
-.navnav{
-    list-style-type: none;
-    margin: 0;
-    padding: 14px 16px;
-    display: flex;
-    flex-wrap: nowrap;
-    font-weight: bold;
-    font-size: larger; }
-
-li a {
-    color: #EFBBD3;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-right: 50px;
-    margin-left: 50px; }
-
-#Music{
-    background-color: #FFF7F8;
-    color: #000000; }
-
-#Music h1{
-    letter-spacing: 3px; }
-
-.title{
-    padding-top: 80px;
-    display: flex;
-    width: 100%;
-    justify-content: center; }
-
-.small-box{
-    border-color: #EFBBD3;
-    border-style: solid;
-    border-width: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 10px; }
-
-.bigvid{
-    padding-top: 40px;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto; }
-
-.minivid{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto; }
-
-#Events{
-    background-color: #FFF7F8;
-    color: #000000; }
-
-#Events h1{
-    letter-spacing: 3px; }
-
-.container1{
-border-color: #EFBBD3;
-background-color: #ffffff;
-border-style: solid;
-border-width: 2px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 5px;
-margin-top: 60px;
-padding: 10px;
-width: 480px;
-height: 600px; }
-
-table{
-    margin-left: 35px;
-    margin-right: 40px; }
-
-
-td, th {
-    padding: 20px;
-    text-align: center; }
-
-
-button{
-    cursor: pointer;
-    border: none;
-    color: #ffffff;
-    background-color: #EFBBD3;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px;
-    font-weight: bold;
-    letter-spacing: 1px; }
-
-button:hover {
-    color: #EFBBD3;
-    background-color: #FFF7F8; }
-
-#Newsletter{
-    background-color: #393B41;
-    color: #FFF7F8; }
-
-#Newsletter h1{
-    letter-spacing: 3px; }
-
-.newslettertext p{
-    margin-top: 40px;
-    text-align: center;
-    padding-right: 120px;
-    padding-left: 120px; }
-
-.emailfield{
-    margin-top: 40px; }
-
-form{
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto; }
-
-form .button{
-    border: none;
-    color: #ffffff;
-    background-color: #EFBBD3;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    padding: 10px; }
-
-form .button:hover{
-    color: #EFBBD3;
-    background-color: #FFF7F8; }
-
-
-#Articles{
-    background-color: #FFF7F8;
-    color: #000000; }
-
-#Articles h1{
-    letter-spacing: 3px; }
-
-#About{
-    background-color: #FFF7F8;
-    color: #000000; }
-
-#About h1{
-    letter-spacing: 3px; }
-
-.abt{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 190px; }
-
-.abt img{
-    resize: both;
-     width:400px; 
-    height: auto;
-    border: #EFBBD3;
-    border-style: solid;
-    border-width: 2px;
-    display: block;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top: 80px; }
-
-.abttext{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 80px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 20px; }
-
-
-
-.container3{
-    margin-top: 80px; }
-
-.flex-right{
-    display: flex;
-    justify-content: flex-end; }
-
-.drop{
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    padding: 10px; }
-
-.dropdown{
-    margin-right: 80px; }
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #FFF7F8;
-    width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; }
-
-.dropdown-content a {
-    color: #EFBBD3;
-    padding: 10px;
-    text-decoration: none;
-    display: block; }
-
-
-.dropdown:hover .dropdown-content{
-    display: block;}
-
-.container4{
-        margin-top: 80px;
-        border-color: #EFBBD3;
-        background-color: #ffffff;
-        border-style: solid;
-        border-width: 2px;
-        margin-left: 80px;
-        margin-right: auto;
-        margin-bottom: 5px;
-        padding: 10px;
-        width: 600px;
-        height: 550px;
-        float: left; }
-
-.container5 p{
-        text-align: justify;
-        margin-top: 10px;
-        font-size: 15px; }
-
-.readmore{
-        margin-top: 10px;
-        float: right; }
-
-.container5 h5{
-        float: left;
-        margin-bottom: 10px;
-        margin-top: 45px; }
-
-#read{
-        background-color: #FFF7F8;
-        color: #000000; }
-
-#read h1{
-        letter-spacing: 1px; }
-
-.backb{
-        margin-top: 80px;
-        margin-left: 80px; }
-
-.container6{
-    margin-left: 80px;
-    margin-right: 80px;
-    padding: 80px;
-    text-align: center; }
-
-    .container6 h1{
-        font-size: 40px; 
-        margin-bottom: 10px;
-    }
-
-    .container6 h5{
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-    }
-
-.container7 img{
-    margin-bottom: 40px; }
-
-.container7{
-    text-align: justify;
-    margin-bottom: 80px;
-    font-size: 20px;
-}
-.container2{
-        background-color: #000000;
-        color: #FFF7F8;
-        text-align: right;
-        font-size: small;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-
-        #contact{
-            background-color: #FFF7F8;
-            color: #000000; }
-        
-        #contact h1{
-            letter-spacing: 3px; }
-
-.container8{
-border-color: #EFBBD3;
-background-color: #ffffff;
-border-style: solid;
-border-width: 2px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 5px;
-margin-top: 60px;
-padding: 10px;
-width: 700px;
-height: 300px; }
-
-.container9{
-    margin-top: 20px;
-    padding: 20px;
- }
-
- #FirstName{
-    margin-left: 40px;
-    margin-right: 40px;}
     
-    #LastName{
-        margin-left: 100px;
-    margin-right: 40px; }
+    .header{
+        background-color: #000000;
+        color: #EFBBD3; }
+        
+        .banner{
+            width: auto;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            overflow: hidden;}
+            
+            
+            .transitions img{
+                margin: auto;
+                width: 100%;
+                height: 700px;}
+                
+                .navbar{
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: #000000;
+                    padding: 0 1em; }
+                    
+                    .search-item{
+                        margin-top: 7px; }
+                        
+                        /*///////////////
+                        mixed 
+                        ///////////*/
+                        
+                        body{ 
+                            background-color: #000000;
+                            font-family: Arial, Helvetica, sans-serif; }
+                            
+                            header{
+                                font-family:"Broadway Regular"; }
+                                
+                                .navnav{
+                                    list-style-type: none;
+                                    margin: 0;
+                                    padding: 14px 16px;
+                                    display: flex;
+                                    flex-wrap: nowrap;
+                                    font-weight: bold;
+                                    font-size: larger; }
+                                    
+                                    li a {
+                                        color: #EFBBD3;
+                                        padding: 14px 16px;
+                                        text-decoration: none;
+                                        margin-right: 50px;
+                                        margin-left: 50px; }
+                                        
+                                        #Music{
+                                            background-color: #FFF7F8;
+                                            color: #000000; }
+                                            
+                                            #Music h1{
+                                                letter-spacing: 3px; }
+                                                
+                                                .title{
+                                                    padding-top: 80px;
+                                                    display: flex;
+                                                    width: 100%;
+                                                    justify-content: center; }
+                                                    
+                                                    .small-box{
+                                                        border-color: #EFBBD3;
+                                                        border-style: solid;
+                                                        border-width: 2px;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        margin-top: 5px;
+                                                        margin-bottom: 5px;
+                                                        padding: 10px; }
+                                                        
+                                                        .bigvid{
+                                                            padding-top: 40px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            margin-left: auto;
+                                                            margin-right: auto; }
+                                                            
+                                                            .minivid{
+                                                                padding-top: 10px;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                margin-left: auto;
+                                                                margin-right: auto; }
+                                                                
+                                                                #Events{
+                                                                    background-color: #FFF7F8;
+                                                                    color: #000000; }
+                                                                    
+                                                                    #Events h1{
+                                                                        letter-spacing: 3px; }
+                                                                        
+                                                                        .container1{
+                                                                            border-color: #EFBBD3;
+                                                                            background-color: #ffffff;
+                                                                            border-style: solid;
+                                                                            border-width: 2px;
+                                                                            margin-left: auto;
+                                                                            margin-right: auto;
+                                                                            margin-bottom: 5px;
+                                                                            margin-top: 60px;
+                                                                            padding: 10px;
+                                                                            width: 480px;
+                                                                            height: 600px; }
+                                                                            
+                                                                            table{
+                                                                                margin-left: 35px;
+                                                                                margin-right: 40px; }
+                                                                                
+                                                                                
+                                                                                td, th {
+                                                                                    padding: 20px;
+                                                                                    text-align: center; }
+                                                                                    
+                                                                                    
+                                                                                    button{
+                                                                                        cursor: pointer;
+                                                                                        border: none;
+                                                                                        color: #ffffff;
+                                                                                        background-color: #EFBBD3;
+                                                                                        padding: 15px 20px;
+                                                                                        text-align: center;
+                                                                                        text-decoration: none;
+                                                                                        display: inline-block;
+                                                                                        font-size: 15px;
+                                                                                        margin: 4px 2px;
+                                                                                        font-weight: bold;
+                                                                                        letter-spacing: 1px; }
+                                                                                        
+                                                                                        button:hover {
+                                                                                            color: #EFBBD3;
+                                                                                            background-color: #FFF7F8; }
+                                                                                            
+                                                                                            #Newsletter{
+                                                                                                background-color: #393B41;
+                                                                                                color: #FFF7F8; }
+                                                                                                
+                                                                                                #Newsletter h1{
+                                                                                                    letter-spacing: 3px; }
+                                                                                                    
+                                                                                                    .newslettertext p{
+                                                                                                        margin-top: 40px;
+                                                                                                        text-align: center;
+                                                                                                        padding-right: 120px;
+                                                                                                        padding-left: 120px; }
+                                                                                                        
+                                                                                                        .emailfield{
+                                                                                                            margin-top: 40px; }
+                                                                                                            
+                                                                                                            form{
+                                                                                                                display: flex;
+                                                                                                                justify-content: center;
+                                                                                                                margin-left: auto;
+                                                                                                                margin-right: auto; }
+                                                                                                                
+                                                                                                                form .button{
+                                                                                                                    border: none;
+                                                                                                                    color: #ffffff;
+                                                                                                                    background-color: #EFBBD3;
+                                                                                                                    text-align: center;
+                                                                                                                    text-decoration: none;
+                                                                                                                    display: inline-block;
+                                                                                                                    font-size: 15px;
+                                                                                                                    font-weight: bold;
+                                                                                                                    letter-spacing: 0.5px;
+                                                                                                                    padding: 10px; }
+                                                                                                                    
+                                                                                                                    form .button:hover{
+                                                                                                                        color: #EFBBD3;
+                                                                                                                        background-color: #FFF7F8; }
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        #Articles{
+                                                                                                                            background-color: #FFF7F8;
+                                                                                                                            color: #000000; }
+                                                                                                                            
+                                                                                                                            #Articles h1{
+                                                                                                                                letter-spacing: 3px; }
+                                                                                                                                
+                                                                                                                                #About{
+                                                                                                                                    background-color: #FFF7F8;
+                                                                                                                                    color: #000000; }
+                                                                                                                                    
+                                                                                                                                    #About h1{
+                                                                                                                                        letter-spacing: 3px; }
+                                                                                                                                        
+                                                                                                                                        .abt{
+                                                                                                                                            display: flex;
+                                                                                                                                            flex-wrap: nowrap;
+                                                                                                                                            margin-bottom: 190px; }
+                                                                                                                                            
+                                                                                                                                            .abt img{
+                                                                                                                                                resize: both;
+                                                                                                                                                width:400px; 
+                                                                                                                                                height: auto;
+                                                                                                                                                border: #EFBBD3;
+                                                                                                                                                border-style: solid;
+                                                                                                                                                border-width: 2px;
+                                                                                                                                                display: block;
+                                                                                                                                                margin-left: 20px;
+                                                                                                                                                margin-right: auto;
+                                                                                                                                                margin-top: 80px; }
+                                                                                                                                                
+                                                                                                                                                .abttext{
+                                                                                                                                                    display: flex;
+                                                                                                                                                    flex-wrap: wrap;
+                                                                                                                                                    margin-left: 80px;
+                                                                                                                                                    margin-right: 80px;
+                                                                                                                                                    margin-top: 80px;
+                                                                                                                                                    text-align: justify;
+                                                                                                                                                    text-justify: inter-word;
+                                                                                                                                                    font-size: 20px; }
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                    .container3{
+                                                                                                                                                        margin-top: 80px; }
+                                                                                                                                                        
+                                                                                                                                                        .flex-right{
+                                                                                                                                                            display: flex;
+                                                                                                                                                            justify-content: flex-end; }
+                                                                                                                                                            
+                                                                                                                                                            .drop{
+                                                                                                                                                                text-align: center;
+                                                                                                                                                                text-decoration: none;
+                                                                                                                                                                display: inline-block;
+                                                                                                                                                                font-size: 15px;
+                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                letter-spacing: 0.5px;
+                                                                                                                                                                padding: 10px; }
+                                                                                                                                                                
+                                                                                                                                                                .dropdown{
+                                                                                                                                                                    margin-right: 80px; }
+                                                                                                                                                                    
+                                                                                                                                                                    .dropdown-content{
+                                                                                                                                                                        display: none;
+                                                                                                                                                                        position: absolute;
+                                                                                                                                                                        background-color: #FFF7F8;
+                                                                                                                                                                        width: 100px;
+                                                                                                                                                                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                                                                                                                                                        z-index: 1; }
+                                                                                                                                                                        
+                                                                                                                                                                        .dropdown-content a {
+                                                                                                                                                                            color: #EFBBD3;
+                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                            display: block; }
+                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                                                                            .dropdown:hover .dropdown-content{
+                                                                                                                                                                                display: block;}
+                                                                                                                                                                                
+                                                                                                                                                                                .container4{
+                                                                                                                                                                                    margin-top: 80px;
+                                                                                                                                                                                    border-color: #EFBBD3;
+                                                                                                                                                                                    background-color: #ffffff;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 2px;
+                                                                                                                                                                                    margin-left: 80px;
+                                                                                                                                                                                    margin-right: auto;
+                                                                                                                                                                                    margin-bottom: 5px;
+                                                                                                                                                                                    padding: 10px;
+                                                                                                                                                                                    width: 600px;
+                                                                                                                                                                                    height: 550px;
+                                                                                                                                                                                    float: left; }
+                                                                                                                                                                                    
+                                                                                                                                                                                    .container5 p{
+                                                                                                                                                                                        text-align: justify;
+                                                                                                                                                                                        margin-top: 10px;
+                                                                                                                                                                                        font-size: 15px; }
+                                                                                                                                                                                        
+                                                                                                                                                                                        .readmore{
+                                                                                                                                                                                            margin-top: 10px;
+                                                                                                                                                                                            float: right; }
+                                                                                                                                                                                            
+                                                                                                                                                                                            .container5 h5{
+                                                                                                                                                                                                float: left;
+                                                                                                                                                                                                margin-bottom: 10px;
+                                                                                                                                                                                                margin-top: 45px; }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #read{
+                                                                                                                                                                                                    background-color: #FFF7F8;
+                                                                                                                                                                                                    color: #000000; }
+                                                                                                                                                                                                    
+                                                                                                                                                                                                    #read h1{
+                                                                                                                                                                                                        letter-spacing: 1px; }
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        .backb{
+                                                                                                                                                                                                            margin-top: 80px;
+                                                                                                                                                                                                            margin-left: 80px; }
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            .container6{
+                                                                                                                                                                                                                margin-left: 80px;
+                                                                                                                                                                                                                margin-right: 80px;
+                                                                                                                                                                                                                padding: 80px;
+                                                                                                                                                                                                                text-align: center; }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                .container6 h1{
+                                                                                                                                                                                                                    font-size: 40px; 
+                                                                                                                                                                                                                    margin-bottom: 10px;}
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                .container6 h5{
+                                                                                                                                                                                                                    margin-top: 10px;
+                                                                                                                                                                                                                    margin-bottom: 10px;}
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                .container7 img{
+                                                                                                                                                                                                                    margin-bottom: 40px; }
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                    .container7{
+                                                                                                                                                                                                                        text-align: justify;
+                                                                                                                                                                                                                        margin-bottom: 80px;
+                                                                                                                                                                                                                        font-size: 20px;}
 
- #Number{
-margin-top: 20px; 
-margin-left: 40px;
-    margin-right: 40px;}
+                                                                                                                                                                                                                    .container2{
+                                                                                                                                                                                                                        background-color: #000000;
+                                                                                                                                                                                                                        color: #FFF7F8;
+                                                                                                                                                                                                                        text-align: right;
+                                                                                                                                                                                                                        font-size: small;
+                                                                                                                                                                                                                        margin-top: 10px;
+                                                                                                                                                                                                                        margin-bottom: 10px; }
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                        #contact{
+                                                                                                                                                                                                                            background-color: #FFF7F8;
+                                                                                                                                                                                                                            color: #000000; }
+                                                                                                                                                                                                                            
+                                                                                                                                                                                                                            #contact h1{
+                                                                                                                                                                                                                                letter-spacing: 3px; }
+                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                .container8{
+                                                                                                                                                                                                                                    border-color: #EFBBD3;
+                                                                                                                                                                                                                                    background-color: #ffffff;
+                                                                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                                                                    border-width: 2px;
+                                                                                                                                                                                                                                    margin-left: auto;
+                                                                                                                                                                                                                                    margin-right: auto;
+                                                                                                                                                                                                                                    margin-bottom: 5px;
+                                                                                                                                                                                                                                    margin-top: 60px;
+                                                                                                                                                                                                                                    padding: 10px;
+                                                                                                                                                                                                                                    width: 700px;
+                                                                                                                                                                                                                                    height: 300px; }
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    .container9{
+                                                                                                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                                                                                                        padding: 20px;}
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    #FirstName{
+                                                                                                                                                                                                                                        margin-left: 40px;
+                                                                                                                                                                                                                                        margin-right: 40px;}
+                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                        #LastName{
+                                                                                                                                                                                                                                            margin-left: 100px;
+                                                                                                                                                                                                                                            margin-right: 40px; }
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            #Number{
+                                                                                                                                                                                                                                                margin-top: 20px; 
+                                                                                                                                                                                                                                                margin-left: 40px;
+                                                                                                                                                                                                                                                margin-right: 40px;}
+                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                #Email{
+                                                                                                                                                                                                                                                    margin-top: 20px;
+                                                                                                                                                                                                                                                    margin-left: 100px;
+                                                                                                                                                                                                                                                    margin-right: 40px; }
+                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                    #mailto{
+                                                                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                                                                        margin-top: 40px;
+                                                                                                                                                                                                                                                        justify-content: center;}
 
-#Email{
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 40px; }
+                                                                                                                                                                                                                                                        #settings{
+                                                                                                                                                                                                                                                            background-color: #FFF7F8;
+                                                                                                                                                                                                                                                        color: #000000; }
+                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                        #contact h1{
+                                                                                                                                                                                                                                                        letter-spacing: 3px; }
 
-    #mailto{
-        display: flex;
-        margin-top: 40px;
-        justify-content: center;
-}
+                                                                                                                                                                                                                                                        .container10{
+                                                                                                                                                                                                                                                            border-color: #EFBBD3;
+                                                                                                                                                                                                                                                            background-color: #ffffff;
+                                                                                                                                                                                                                                                            border-style: solid;
+                                                                                                                                                                                                                                                            border-width: 2px;
+                                                                                                                                                                                                                                                            margin-left: auto;
+                                                                                                                                                                                                                                                            margin-right: auto;
+                                                                                                                                                                                                                                                            margin-bottom: 5px;
+                                                                                                                                                                                                                                                            margin-top: 60px;
+                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                            width: 400px;
+                                                                                                                                                                                                                                                            height: 430px;
+                                                                                                                                                                                                                                                            display:flex; 
+                                                                                                                                                                                                                                                            cursor:pointer;}
+
+                                                                                                                                                                                                                                                        .options h4{
+                                                                                                                                                                                                                                                            margin-top: 10px;
+                                                                                                                                                                                                                                                            margin-bottom: 5px;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        .options p{
+                                                                                                                                                                                                                                                            margin-top: 5px;
+                                                                                                                                                                                                                                                            margin-bottom: 5px;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                            
