@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{ 
+    padding-left: 200px;
+    padding-right: 200px; 
+    background-color: #000000;
+}
+
+/* Navigation Styling*/ 
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  background-color: black;
+  overflow: hidden;
+}
+
+li{
+    display: inline;
+    padding: 14px 45px;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: #EFBBD3;
+    text-align: center;
+}
+
+.search{
+    float: right;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+/*END*/
+
+#Music {
+    background-color: #FFF7F8;
+    color: #000000;
+}
+
+/* Section Titles */
+.title {
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.title-box {
+    border-color: #EFBBD3;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.title-box h1{
+    letter-spacing: 3px;
+}
+
+/*END*/
+
+.spotify-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    padding: 10px;
+    border: none;
+}
+
+/*END*/
+
+#Events{
+    background-color: #FFF7F8;
+    color: #000000;
+}
+
+.container{
+    border-color: #EFBBD3;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 60px;
+    padding: 10px;
+    width: 480px;
+    height: 600px;
+}
+
+table{
+    margin-left: 35px;
+    margin-right: 40px;
+}
+    
+td, th{
+        padding: 20px;
+        text-align: center; 
+}
+        
+        
+button{
+cursor: pointer;
+border: none;
+color: #ffffff;
+background-color: #EFBBD3;
+padding: 15px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+margin: 4px 2px;
+font-weight: bold;
+letter-spacing: 1px; 
+}
+
+button:hover {
+color: #EFBBD3;
+background-color: #FFF7F8; 
+}
+
+
+
+
+
+
+
+
+
