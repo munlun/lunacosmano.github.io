@@ -13,19 +13,19 @@
 
 /* Navigation Styling*/ 
 ul{
-    list-style-type: none;
-  margin: 0;
-  padding: 1em;
-  background-color: black;
-  overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 1em;
+background-color: black;
+overflow: hidden;
 }
 
 li{
     display: inline;
     padding: 14px 45px;
-  text-decoration: none;
-  font-size: larger;
-  font-weight: bold;
+text-decoration: none;
+font-size: larger;
+font-weight: bold;
 }
 
 li a{
@@ -51,7 +51,7 @@ li a{
 
 /* Section Titles */
 .title {
-    padding-top: 80px;
+    padding-top: 75px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -80,6 +80,7 @@ li a{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 iframe{
@@ -118,7 +119,8 @@ td, th{
         text-align: center; 
 }
         
-        
+/*Buttons*/
+
 button{
 cursor: pointer;
 border: none;
@@ -139,8 +141,39 @@ color: #EFBBD3;
 background-color: #FFF7F8; 
 }
 
+/*Newsletter*/
 
+#Newsletter{
+background-color: #000000;
+color: #FFF7F8;
+}
 
+.emailfield{
+    margin-top: 40px; 
+    display: flex;
+    justify-content: center;
+}
+
+.newslettertext p{
+    margin-top: 40px;
+    text-align: center;
+    padding-right: 120px;
+    padding-left: 120px; }
+        
+form{
+margin-left: auto;
+margin-right: auto; 
+}
+
+/*Footer*/
+.footer-container{
+background-color: #000000;
+color: #FFF7F8;
+text-align: center;
+font-size: small;
+margin-top: 10px;
+margin-bottom: 10px; 
+}
 
 
 
