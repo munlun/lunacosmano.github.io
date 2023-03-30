@@ -170,6 +170,29 @@ margin-right: auto;
     color: #000000;
 }
 
+.content{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content img{
+    border-color: #EFBBD3;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    height: fit-content;
+    justify-content: left;
+    margin-bottom: 80px;
+}
+
+.content p{
+    justify-content: right;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 3em;
+}
 
 
 
