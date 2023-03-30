@@ -8,7 +8,7 @@
 .main{ 
     padding-left: 200px;
     padding-right: 200px; 
-    background-color: rgb(5, 4, 10);
+    background-color: rgb(3, 2, 4);
 }
 
 /* Navigation Styling*/ 
@@ -16,7 +16,7 @@ ul{
 list-style-type: none;
 margin: 0;
 padding: 1em;
-background-color: rgb(5, 4, 10);
+background-color: rgb(3, 2, 4);
 overflow: hidden;
 }
 
@@ -46,7 +46,7 @@ li a{
 
 #Music {
     background-color: #FFF7F8;
-    color: #000000;
+    color: rgb(3, 2, 4);
 }
 
 /* Section Titles */
@@ -92,7 +92,7 @@ iframe{
 
 #Events{
     background-color: #FFF7F8;
-    color: #000000;
+    color: rgb(3, 2, 4);
 }
 
 .container{
@@ -144,7 +144,7 @@ background-color: #FFF7F8;
 /*Newsletter*/
 
 #Newsletter{
-background-color: rgb(5, 4, 10);
+    background-color: rgb(3, 2, 4);
 color: #FFF7F8;
 }
 
@@ -168,13 +168,15 @@ margin-right: auto;
 /* Articles */
 #Articles{
     background-color: #FFF7F8;
-    color: #000000;
-    height: 130em;
+    color: rgb(3, 2, 4);
+    height: 80em;
 }
 
 #Articles .container{
 display: inline-block;
 margin-bottom: 5px;
+margin-left: 20px;
+margin-right: 20px;
 padding: 10px;
 width: 30em;
 height: 29em; 
@@ -193,17 +195,11 @@ font-size: 15px;
     justify-content: right;
 }
 
-
-
-
-
-
-
 /* About section*/
 
 #About{
     background-color: #FFF7F8;
-    color: #000000;
+    color: rgb(3, 2, 4);
 }
 
 .content{
@@ -309,7 +305,7 @@ padding: 10px;
 
 /*Footer*/
 .footer-container{
-background-color: rgb(5, 4, 10);
+background-color: rgb(3, 2, 4);
 color: #FFF7F8;
 text-align: center;
 font-size: small;
